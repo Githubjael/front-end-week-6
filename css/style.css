@@ -28,6 +28,7 @@ nav#links{
 nav#links > a{
     color: white;
     text-decoration: none;
+    padding: 0.5em;
 }
 
 main{
@@ -46,10 +47,9 @@ h1{
 
 section.notes{
     background-color: white;
-    font-size: em;
-    /* margin: 20px auto; */
-    padding: 5px;
-    max-width: 550px;
+    padding: 1em;
+    gap: 1em;
+    max-width: 50vw;
     display: flex;
     justify-content: space-between;
 }
@@ -73,7 +73,6 @@ div.foto img{
 
 footer{
     padding: 2em;
-    height: 20vh;
     color: white;
     text-align: center;
     background-color: rgba(0, 0, 0, .7);
@@ -93,6 +92,25 @@ nav.socials> a{
     background-color: rgba(255, 255, 255, .5);
 }
 
-@media (max-width: 375px) {
-    
+@media (max-width: 376px) {
+    header#hero{
+        margin: 0 auto;
+    }
+
+    nav#links{
+        text-align: center;
+        flex-direction: column;
+    }
+    section.notes{
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    nav.socials{
+        flex-direction: column;
+    }
+
+    footer{
+        margin: 0 auto;
+    }
 }
