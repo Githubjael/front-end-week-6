@@ -32,11 +32,14 @@ nav#links > a{
 
 main{
     box-sizing: border-box;
+    padding: 25vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    justify-content: center;
 }
 
 h1{
     box-sizing: border-box;
-    margin-left: 9.3em;
     background-color: rgb(54,121,220);
     color: white;
 }
@@ -44,7 +47,7 @@ h1{
 section.notes{
     background-color: white;
     font-size: em;
-    margin: 20px auto;
+    /* margin: 20px auto; */
     padding: 5px;
     max-width: 550px;
     display: flex;
@@ -90,6 +93,6 @@ nav.socials> a{
     background-color: rgba(255, 255, 255, .5);
 }
 
-/* @media (max-width: ) {
+@media (max-width: 375px) {
     
-} */
+}
