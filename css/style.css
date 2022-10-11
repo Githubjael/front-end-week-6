@@ -12,7 +12,7 @@ header#hero{
     align-items: center;
     font-size: 2em;
     color: rgb(54,121,220);
-    background-image: url(./img/alankay-header.jpg);
+    background-image: url(../img/alankay-header.jpg);
     background-size: cover;
     background-position: center;
 }
